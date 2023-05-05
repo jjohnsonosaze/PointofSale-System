@@ -43,7 +43,7 @@ public:
         int productIndex, quantity;
 
         do {
-            // Display the products available
+            // Display the products available in Group 3 Stores
             displayProducts();
 
             // Allow the user to select a product
