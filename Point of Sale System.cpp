@@ -64,7 +64,7 @@ public:
             }
         } while (productIndex != 0);
 
-        // Display the receipt for the customer
+        // Display the receipt of item (s) selected for the customer
         cout << endl;
         cout << "Receipt:" << endl;
         cout << "--------" << endl;
