@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Product class to store the details of a product
+// Product class to store the details of a product in Group 3 Stores
 class Product {
 private:
     string name;
