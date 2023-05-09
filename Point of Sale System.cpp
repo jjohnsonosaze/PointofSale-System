@@ -4,7 +4,7 @@
 
 using namespace std;
 
-// Product class to store the details of all     product in Group 3 Stores
+// Product class to store the details of all product in Group 3 Stores
 class Product {
 private:
     string name;
@@ -60,7 +60,7 @@ public:
                 totalAmount += products[productIndex - 1].getPrice() * quantity;
                 itemCounts[productIndex - 1] += quantity;
 
-                // Display a message indicating that the product has been added to the cart
+                // Display a message indicating that the product (s) has been added to the cart
                 cout << quantity << " " << products[productIndex - 1].getName() << " added to cart." << endl;
             }
         } while (productIndex != 0);
