@@ -47,7 +47,7 @@ public:
             // Display the products available in Group 3 Stores
             displayProducts();
 
-            // Allow the user to select a product available
+            // Allow the user to select a product among available products in Group 3 Stores
             cout << "Select a product (1-5, 0 to exit): ";
             cin >> productIndex;
 
