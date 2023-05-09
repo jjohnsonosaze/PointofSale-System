@@ -65,7 +65,7 @@ public:
             }
         } while (productIndex != 0);
 
-        // Display the receipt of item (s) selected  for the customer
+        // Display the receipt of item (s) selected  for the customer at Group 3 Stores
         cout << endl;
         cout << "Receipt:" << endl;
         cout << "--------" << endl;
