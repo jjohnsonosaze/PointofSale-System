@@ -32,7 +32,7 @@ private:
 public:
     void displayProducts() {
         cout << "Products Available:" << endl;
-        cout << "-------------------" << endl;
+        cout << "---------------------" << endl;
 
         for (int i = 0; i < 5; i++) {
             cout << i + 1 << ". " << setw(30) << left << products[i].getName() << "N" << fixed << setprecision(2) << products[i].getPrice() << endl;
