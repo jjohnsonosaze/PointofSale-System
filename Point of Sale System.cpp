@@ -52,7 +52,7 @@ public:
             cin >> productIndex;
 
             if (productIndex > 0 && productIndex <= 5) {
-                // Ask the user to enter the quantity of the selected product
+                // Ask the user to enter the quantity of the selected product in Group 3;Stores
                 cout << "Enter quantity: ";
                 cin >> quantity;
 
